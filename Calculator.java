@@ -350,7 +350,7 @@ public class Calculator extends JFrame implements ActionListener{
 		
 			
 		c1=data[0];
-		for(i=1,j=0;i<len;i++,j++)
+		for(i=1,j=0;i<len;i++,j++) 
 		{
 			c2=data[i];
 			op=oprts[j];
