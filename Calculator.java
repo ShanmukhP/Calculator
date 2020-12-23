@@ -63,6 +63,7 @@ public class Calculator extends JFrame implements ActionListener{
 		cp.setLayout(null);
 		
 		result = new JTextField();
+		result.setBackground(Color.WHITE);
 		result.setEditable(false);
 		result.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		result.setBounds(10, 10, 551, 67);
